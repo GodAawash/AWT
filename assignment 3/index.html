@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog Post</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body>
+        <!-- global container -->
+        <div>
+            <!-- logo -->
+            <div class=" py-3 left-0 w-full flex justify-between px-7">
+                <img src="new_logo.png" alt="Logo 1" class="h-10">
+                <img src="Hospital-of-the-year-Logo.png" alt="Logo 2" class="h-10 w-auto ">
+            </div>
+
+            <!-- Upper image -->
+            <div class="relative mx-2">
+                <div class="absolue ">
+                    <!-- Navbar -->
+                    <nav class="bg-[#184b69] text-white p-2  w-auto space-x-3">
+                        <div class="container mx-auto flex justify-center items-center">
+
+
+                            <!-- Center: Menu Items -->
+                            <ul class="hidden md:flex space-x-6 ">
+                                <li class="relative group">
+                                    <a href="#" class="hover:text-green-400">About Us <i
+                                            class="fa-solid fa-chevron-down"></i></a>
+                                    <div
+                                        class="absolute hidden group-hover:block bg-gray-200 text-black rounded-md mt-2 p-2">
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Our Mission</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Team</a>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="hover:text-green-400">Departments</a></li>
+                                <li><a href="#" class="hover:text-green-400">Health Packages</a></li>
+                                <li class="relative group">
+                                    <a href="#" class="hover:text-green-400">Facilities & Services <i
+                                            class="fa-solid fa-chevron-down"></i></a>
+                                    <div
+                                        class="absolute hidden group-hover:block bg-white text-black rounded-md mt-2 p-2">
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Emergency</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Surgery</a>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="hover:text-green-400">International Patients</a></li>
+                                <li><a href="#" class="hover:text-green-400">Academic Wing <i
+                                            class="fa-solid fa-chevron-down"></i></a></li>
+                                <li class="relative group">
+                                    <a href="#" class="hover:text-green-400">More </a>
+                                    <div
+                                        class="absolute hidden group-hover:block bg-white text-black rounded-md mt-2 p-2">
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Contact</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <!-- Mobile Menu Button -->
+                            <button class="md:hidden text-2xl" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+
+                        <!-- Mobile Menu -->
+                        <div class="md:hidden hidden bg-[#184b69] text-white p-4 space-y-3" id="mobile-menu">
+                            <a href="#" class="block">About Us</a>
+                            <a href="#" class="block">Departments</a>
+                            <a href="#" class="block">Health Packages</a>
+                            <a href="#" class="block">Facilities & Services</a>
+                            <a href="#" class="block">International Patients</a>
+                            <a href="#" class="block">Academic Wing</a>
+                            <a href="#" class="block">More</a>
+                        </div>
+                    </nav>
+
+                    <script>
+                        document.getElementById("menu-btn").addEventListener("click", function () {
+                            document.getElementById("mobile-menu").classList.toggle("hidden");
+                        });
+                    </script>
+                    <div class="absolute mt-16 ml-14 lg:mt-36 lg:ml-28">
+                        <h1 class="text-[#184b69]  text-3xl">World Strock Day</h1>
+                        <p class="text-[#184b69]">News and Article >> World Strock Day </p>
+                    </div>
+                </div>
+
+
+                <img src="DALL·E 2025-02-11 12.02.29 - A clean, well-lit hospital hallway with white walls, bright overhead lighting, and a modern design. The hallway extends into the distance with evenly .webp"
+                    alt="image" class="w-full h-72 object-fill ">
+
+
+            </div>
+            <!-- footer-content -->
+            <div class="flex flex-col mx-20 lg:flex-row ">
+                <!-- right-part -->
+                <div class="container mx-auto">
+                    <div class=" gap-6">
+                        <!-- Main Content -->
+                        <div class="lg:col-span-2 bg-white p-6 rounded-md">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/027/478/933/small/meducal-stuff-in-blue-uniform-free-photo.jpg"
+                                alt="Blog Image" class="h-60 rounded-md mb-4 object-contain">
+                            <p class="text-gray-500 text-sm">March 7, 2015 / By Rockal</p>
+                            <h1 class="text-2xl font-bold mt-2">Standard Post Format</h1>
+                            <p class="text-gray-700 mt-4">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing
+                                condimentum tristique vel, eleifend sed turpis.
+                            </p>
+                            <blockquote class="border-l-4 border-gray-300 pl-4 italic text-gray-600 mt-4">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            </blockquote>
+                            <p class="text-gray-700 mt-4">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout.
+                            </p>
+                            <div class="mt-6 p-4 bg-gray-100 flex justify-between items-center rounded-md">
+                                <span class="text-gray-700 font-semibold">Share this Post!</span>
+                                <div class="flex gap-2">
+                                    <button class="p-2 bg-white text-black rounded-full">FB</button>
+                                    <button class="p-2 bg-white text-black rounded-full">TW</button>
+                                    <button class="p-2  bg-white text-black rounded-full">G+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- left side-bar -->
+                <!-- Sidebar -->
+                <aside class="bg-white p-6  rounded-md overflow-auto h-96">
+                    <h2 class="text-lg font-bold bg-gray-800 text-white p-3 rounded-md">Recent Posts</h2>
+                    <ul class="divide-y divide-gray-200 ">
+                        <li class="py-3 flex items-center gap-3">
+                            <img src="https://nightingale.edu/_resources/images/blog/nurses-that-work-with-babies-vlarge.jpeg"
+                                class="w-12 h-12 rounded-md" alt="">
+                            <div>
+                                <p class="font-semibold">Geometric Landscapes Heartologic</p>
+                                <p class="text-sm text-gray-500">11 Minutes ago</p>
+                            </div>
+                        </li>
+                        <li class="py-3 flex items-center gap-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmAJCA0ApuycHdZomYJ3vHSz_G2ZxLZ09LBQ&s"
+                                class="w-12 h-12 rounded-md" alt="">
+                            <div>
+                                <p class="font-semibold">Geometric Landscapes Heartologic</p>
+                                <p class="text-sm text-gray-500">2 Days ago</p>
+                            </div>
+                        </li>
+                        <li class="py-3 flex items-center gap-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCzuC-QxhLcYPnCoqwbuDJq2iNyj0WfL8p4A&s"
+                                class="w-12 h-12 rounded-md" alt="">
+                            <div>
+                                <p class="font-semibold">Geometric Landscapes Heartologic</p>
+                                <p class="text-sm text-gray-500">3 Months ago</p>
+                            </div>
+                        </li>
+                        <li class="py-3 flex items-center gap-3">
+                            <img src="https://png.pngtree.com/thumb_back/fw800/background/20240408/pngtree-maternity-nurse-holding-newborn-baby-image_15710619.jpg"
+                                class="w-12 h-12 rounded-md" alt="">
+                            <div>
+                                <p class="font-semibold">Geometric Landscapes Heartologic</p>
+                                <p class="text-sm text-gray-500">3 Months ago</p>
+                            </div>
+                        </li>
+                        <li class="py-3 flex items-center gap-3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb7xjDZiIj2GC96Ot4S-_fKhIPoBrhsY4n4Q&s"
+                                class="w-12 h-12 rounded-md" alt="">
+                            <div>
+                                <p class="font-semibold">Geometric Landscapes Heartologic</p>
+                                <p class="text-sm text-gray-500">3 Months ago</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </aside>
+            </div>
+    </body>
+
+    </html>
