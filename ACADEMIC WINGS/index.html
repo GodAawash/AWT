@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  
+
+  <body>
+    <!-- upper image -->
+  <div class="w-full h-1/3 overflow-hidden md:h-1/4 lg:max-h-96">
+    <img
+      src="images.png"
+      class="object-contain w-full h-full flex-col-1 lg:object-fill"
+    />
+  </div>
+    
+    <!-- navigation -->
+    <div class=" flex flex-row justify-center text-center flex-wrap">
+      <nav class="bg-blue-950 text-white  w-full max-w-screen-sm flex-wrap">
+        <ul class="text-sm flex flex-row justify-center space-x-9 px-4 py-6">
+          <li class="cursor-pointer">VIEW PROGRAMS</li>
+          <li class="cursor-pointer">EXPLORE OFFERINGS</li>
+          <li class="cursor-pointer">MEET THE FACULTY</li>
+          <li class="cursor-pointer">TAKE THE NEXT STEP</li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- about us -->
+
+    <div
+      class="flex flex-row flex-wrap lg:flex-nowrap items-center justify-end w-full sm:flex-row"
+    >
+      <div class="flex text-center justify-center w-full -mt-36">
+        <img
+          src="nurse.avif"
+          alt="Nurse"
+          class="rounded-lg hover:scale-10 hover:shadow-2xl transition duration-300 mt-36"
+        />
+      </div>
+      <div class="flex flex-col m-4 lg:p-8 w-full">
+        <h2 class="mt-3 ml-6 text-2xl">
+          <span class="text-blue-400">About</span> Us
+        </h2>
+        <p class="ml-6 text-sm-1xl text-gray-400">Description text here...</p>
+        <p class="voluptatibustext-justify pt-6">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+          cupiditate veniam facere, nobis, illo corrupti facilis neque rem,
+          impedit error laborum cumque earum voluptates animi nam voluptatibus
+          maxime nihil nesciunt!Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Repellat cupiditate veniam facere, nobis, illo
+          corrupti facilis neque rem, impedit error laborum cumque earum
+          voluptates animi nam maxime nihil nesciunt!Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Repellat cupiditate veniam facere,
+          nobis, illo corrupti facilis neque rem, impedit error laborum cumque
+          earum voluptates animi nam voluptatibus maxime nihil nesciunt!Lorem
+          ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+          cupiditate veniam facere, nobis, illo corrupti facilis neque rem,
+          impedit error laborum cumque earum voluptates animi nam voluptatibus
+          maxime nihil nesciunt!Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Repellat cupiditate veniam facere, nobis, illo
+          corrupti facilis neque rem, impedit error laborum cumque earum
+          voluptates animi nam voluptatibus maxime nihil nesciunt!
+        </p>
+        <div>
+          <button
+            class="mt-6 bg-transparent hover:bg-red-500 text-black font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded-full"
+          >
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- service cateogry -->
+    <div class="flex flex-col flex-wrap p-11 gap-5 justify-center items-center lg:flex lg:flex-row">
+    
+
+
+      
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg w-56 hover:scale-[1.1] ease-in duration-300"
+      >
+        <div class="px-6 py-4 text-center bg-blue-800 min-h-full">
+          <div class="font-bold text-xl mb-2 text-white">
+            <h3>Major</h3>
+            <h2>Public Health</h2>
+          </div>
+          <i
+            class="fa-solid fa-circle-chevron-right fa-lg flex justify-end mt-16"
+            style="color: #f2eeee"
+          ></i>
+        </div>
+      </div>
+
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg w-56 hover:scale-[1.1] ease-in duration-300"
+      >
+        <div class="px-6 py-4 bg-blue-400 min-h-full">
+          <div class="font-bold text-xl mb-2 text-white">
+            <h4>Major</h4>
+            <h2>Public Health</h2>
+            <h3 class="text-2xl">Free serving</h3>
+          </div>
+          <i
+            class="fa-solid fa-circle-chevron-right fa-lg flex justify-end mt-8"
+            style="color: #f2eeee"
+          ></i>
+        </div>
+      </div>
+
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg w-56 hover:scale-[1.1] ease-in duration-300"
+      >
+        <div class="px-6 py-4 bg-blue-950 min-h-full">
+          <div class="font-bold text-xl mb-2 text-white">
+            <h3>Minor</h3>
+            <h2>Public Health</h2>
+          </div>
+          <i
+            class="fa-solid fa-circle-chevron-right fa-lg flex justify-end mt-16"
+            style="color: #f2eeee"
+          ></i>
+        </div>
+      </div>
+      
+
+      <div
+        class="flex-col text-center justify-center md:flex-col-2 md:text-center md:justify-center rounded shadow-lg w-56 hover:scale-[1.1] ease-in duration-300 "
+      >
+        <div class="px-6 py-4 bg-blue-800 min-h-full">
+          <div class="font-bold text-xl mb-2 text-white">
+            <h3>Major</h3>
+            <h2>Public Health</h2>
+          </div>
+          <i
+            class="fa-solid fa-circle-chevron-right fa-lg flex justify-end mt-16"
+            style="color: #f2eeee"
+          ></i>
+        </div>
+      </div>
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg w-56 hover:scale-[1.1] ease-in duration-300"
+      >
+        <div class="px-6 py-4 bg-blue-800 min-h-full">
+          <div class="font-bold mb-2 text-white">
+            <h3 class="h3">Major</h3>
+            <h2 class="h2 text-2xl">Public Health</h2>
+
+
+
+            
+            Pre-nursing
+          </div>
+          <i
+            class="fa-solid fa-circle-chevron-right fa-lg flex justify-end mt-10"
+            style="color: #f2eeee"
+          ></i>
+        </div>
+      </div>
+      <div
+        class="max-w-sm rounded overflow-hidden shadow-lg w-56 hover:scale-[1.1] ease-in duration-300"
+      >
+        <div class="px-6 py-4 bg-blue-800 min-h-full">
+          <div class="font-bold text-xl mb-2 text-white">
+            <h3>Minor</h3>
+            <h2>Public Health</h2>
+          </div>
+          <i
+            class="fa-solid fa-circle-chevron-right fa-lg flex justify-end mt-16"
+            style="color: #f2eeee"
+          ></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div class="flex flex-col justify-center text-center gap-4 lg:flex-row lg:justify-center lg:flex-col-3  md: items-center">
+      <div
+        class="max-w-sm group relative bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-width-sm overflow-hidden"
+      >
+        <img src="/nurse.avif" alt="Sunset in the mountains" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-lg mb-2 text-gray-500">Health</div>
+          <p class="text-2xl">Asbestos Awareness</p>
+          <div class="flex justify-between mt-4">
+            <div>
+              <i class="fa-regular fa-clock"></i>
+              2-3 hrs
+            </div>
+            <div>
+              <i class="fa-solid fa-graduation-cap"></i>
+              30,563 learners
+            </div>
+          </div>
+        </div>
+        <div class="ml-4 mr-4 mb-4 flex justify-between">
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Apply Now</span
+          >
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Start Learning</span
+          >
+        </div>
+
+        <div
+          class="max-w-sm overflow-hidden shadow-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
+        >
+          <div class="px-6 py-4 bg-white">
+            <div class="font-bold text-xl mb-2 text-black">
+              <p>
+                HACCP Food Safety System for Resturants and Other Catering
+                Services
+              </p>
+              <div class="flex justify-between mt-3">
+                <div class="text-gray-500 text-lg">
+                  <i class="fa-regular fa-clock text-gray-500 text-lg"></i>
+                  3-4 hrs
+                </div>
+                <div class="text-gray-500 text-lg">
+                  <i
+                    class="fa-solid fa-graduation-cap text-gray-500 text-lg"
+                  ></i>
+                  89,221 learners
+                </div>
+              </div>
+              <div class="mt-3 text-lg">
+                <p class="underline text-gray-500 text-lg">
+                  By mokhtar Harb Abd-El-Khalek
+                </p>
+              </div>
+              <div class="text-gray-500 text-lg mt-4 w-15">
+                You Will Learn How To
+                <div>
+                  <ul class="list-none space-y-2">
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define the
+                      "catering industry" and its different type
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Discuss the
+                      importance of food safety in catering in..
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define HACCP Food
+                      Safety System and its importance
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="ml-4 mr-4 mb-4 flex justify-between mt-4">
+                  <span
+                    class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 border-amber-50 cursor-pointer"
+                    >More Info</span
+                  >
+                  <span
+                    class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+                    >Start Learning</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div
+        class="max-w-sm group relative bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-width-sm overflow-hidden"
+      >
+        <img src="/nurse.avif" alt="Sunset in the mountains" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-lg mb-2 text-gray-500">Health</div>
+          <p class="text-2xl">Asbestos Awareness</p>
+          <div class="flex justify-between mt-4">
+            <div>
+              <i class="fa-regular fa-clock"></i>
+              2-3 hrs
+            </div>
+            <div>
+              <i class="fa-solid fa-graduation-cap"></i>
+              30,563 learners
+            </div>
+          </div>
+        </div>
+        <div class="ml-4 mr-4 mb-4 flex justify-between">
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Apply Now</span
+          >
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Start Learning</span
+          >
+        </div>
+
+        <div
+          class="max-w-sm overflow-hidden shadow-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
+        >
+          <div class="px-6 py-4 bg-white">
+            <div class="font-bold text-xl mb-2 text-black">
+              <p>
+                HACCP Food Safety System for Resturants and Other Catering
+                Services
+              </p>
+              <div class="flex justify-between mt-3">
+                <div class="text-gray-500 text-lg">
+                  <i class="fa-regular fa-clock text-gray-500 text-lg"></i>
+                  3-4 hrs
+                </div>
+                <div class="text-gray-500 text-lg">
+                  <i
+                    class="fa-solid fa-graduation-cap text-gray-500 text-lg"
+                  ></i>
+                  89,221 learners
+                </div>
+              </div>
+              <div class="mt-3 text-lg">
+                <p class="underline text-gray-500 text-lg">
+                  By mokhtar Harb Abd-El-Khalek
+                </p>
+              </div>
+              <div class="text-gray-500 text-lg mt-4 w-15">
+                You Will Learn How To
+                <div>
+                  <ul class="list-none space-y-2">
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define the
+                      "catering industry" and its different type
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Discuss the
+                      importance of food safety in catering in..
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define HACCP Food
+                      Safety System and its importance
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="ml-4 mr-4 mb-4 flex justify-between mt-4">
+                  <span
+                    class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 border-amber-50 cursor-pointer"
+                    >More Info</span
+                  >
+                  <span
+                    class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+                    >Start Learning</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div
+        class="max-w-sm group relative bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-width-sm overflow-hidden"
+      >
+        <img src="/nurse.avif" alt="Sunset in the mountains" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-lg mb-2 text-gray-500">Health</div>
+          <p class="text-2xl">Asbestos Awareness</p>
+          <div class="flex justify-between mt-4">
+            <div>
+              <i class="fa-regular fa-clock"></i>
+              2-3 hrs
+            </div>
+            <div>
+              <i class="fa-solid fa-graduation-cap"></i>
+              30,563 learners
+            </div>
+          </div>
+        </div>
+        <div class="ml-4 mr-4 mb-4 flex justify-between">
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Apply Now</span
+          >
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Start Learning</span
+          >
+        </div>
+
+        <div
+          class="max-w-sm overflow-hidden shadow-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
+        >
+          <div class="px-6 py-4 bg-white">
+            <div class="font-bold text-xl mb-2 text-black">
+              <p>
+                HACCP Food Safety System for Resturants and Other Catering
+                Services
+              </p>
+              <div class="flex justify-between mt-3">
+                <div class="text-gray-500 text-lg">
+                  <i class="fa-regular fa-clock text-gray-500 text-lg"></i>
+                  3-4 hrs
+                </div>
+                <div class="text-gray-500 text-lg">
+                  <i
+                    class="fa-solid fa-graduation-cap text-gray-500 text-lg"
+                  ></i>
+                  89,221 learners
+                </div>
+              </div>
+              <div class="mt-3 text-lg">
+                <p class="underline text-gray-500 text-lg">
+                  By mokhtar Harb Abd-El-Khalek
+                </p>
+              </div>
+              <div class="text-gray-500 text-lg mt-4 w-15">
+                You Will Learn How To
+                <div>
+                  <ul class="list-none space-y-2">
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define the
+                      "catering industry" and its different type
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Discuss the
+                      importance of food safety in catering in..
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define HACCP Food
+                      Safety System and its importance
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="ml-4 mr-4 mb-4 flex justify-between mt-4">
+                  <span
+                    class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 border-amber-50 cursor-pointer"
+                    >More Info</span
+                  >
+                  <span
+                    class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+                    >Start Learning</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div
+        class="max-w-sm group relative bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-width-sm overflow-hidden"
+      >
+        <img src="/nurse.avif" alt="Sunset in the mountains" />
+        <div class="px-6 py-4">
+          <div class="font-bold text-lg mb-2 text-gray-500">Health</div>
+          <p class="text-2xl">Asbestos Awareness</p>
+          <div class="flex justify-between mt-4">
+            <div>
+              <i class="fa-regular fa-clock"></i>
+              2-3 hrs
+            </div>
+            <div>
+              <i class="fa-solid fa-graduation-cap"></i>
+              30,563 learners
+            </div>
+          </div>
+        </div>
+        <div class="ml-4 mr-4 mb-4 flex justify-between">
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Apply Now</span
+          >
+          <span
+            class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+            >Start Learning</span
+          >
+        </div>
+
+        <div
+          class="max-w-sm overflow-hidden shadow-lg absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"
+        >
+          <div class="px-6 py-4 bg-white">
+            <div class="font-bold text-xl mb-2 text-black">
+              <p>
+                HACCP Food Safety System for Resturants and Other Catering
+                Services
+              </p>
+              <div class="flex justify-between mt-3">
+                <div class="text-gray-500 text-lg">
+                  <i class="fa-regular fa-clock text-gray-500 text-lg"></i>
+                  3-4 hrs
+                </div>
+                <div class="text-gray-500 text-lg">
+                  <i
+                    class="fa-solid fa-graduation-cap text-gray-500 text-lg"
+                  ></i>
+                  89,221 learners
+                </div>
+              </div>
+              <div class="mt-3 text-lg">
+                <p class="underline text-gray-500 text-lg">
+                  By mokhtar Harb Abd-El-Khalek
+                </p>
+              </div>
+              <div class="text-gray-500 text-lg mt-4 w-15">
+                You Will Learn How To
+                <div>
+                  <ul class="list-none space-y-2">
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define the
+                      "catering industry" and its different type
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Discuss the
+                      importance of food safety in catering in..
+                    </li>
+                    <li class="flex items-center">
+                      <span class="text-black mr-2">✔</span> Define HACCP Food
+                      Safety System and its importance
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="ml-4 mr-4 mb-4 flex justify-between mt-4">
+                  <span
+                    class="inline-block bg-white rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 border-amber-50 cursor-pointer"
+                    >More Info</span
+                  >
+                  <span
+                    class="inline-block bg-green-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer"
+                    >Start Learning</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <!-- video section -->
+    <div class="bg-blue-900 flex items-center justify-center min-h-fit p-6 mt-4 mr-2 ml-2">
+      <div class="max-w-5xl w-full bg-blue-900 text-white flex flex-col md:flex-row items-center gap-6">
+      
+      <!-- Video Section -->
+      <div class="relative w-full md:w-1/2">
+      <img src="video image'.webp" alt="Video Thumbnail" class="rounded-lg w-full">
+     </button>
+      </div>
+      
+      <!-- Text Section -->
+      <div class="w-full md:w-1/2 text-center md:text-left">
+      <p class="text-yellow-400 text-sm font-semibold uppercase">Student Stories</p>
+      <h2 class="text-2xl font-bold mt-2">Explore Health at Worcester State.</h2>
+      <p class="text-gray-200 mt-2">Hear from current students at Worcester State who are on their way to becoming compassionate healthcare professionals.</p>
+      
+      <!-- CTA Button -->
+      <a href="#" class="inline-flex items-center text-blue-400 font-semibold mt-4 ">
+      <span class="text-yellow-400"> Watch here    <i class="fa-solid fa-circle-right"></i></span>
+      
+      </a>
+      </div>
+      </div>
+      </div>
+      
+
+
+    <!-- cards section -->
+     
+     <!-- global container  -->
+    <div class="grid items-center justify-center min-h-fit mt-5 bg-white lg:mt-8 md:mt-5">
+      <span class="font-bold text-3xl">Meet Your Faculty</span>
+      <!-- column container -->
+      <div class="grid grid-cols-1 mt-8 gap-6 md:gap-3 md:grid-cols-2 md:justify-center md:items-center lg:grid-cols-4 lg:gap-6 lg:justify-center lg:items-center">  
+
+          <!-- card-1 -->
+           <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+            <!-- upper container  -->
+             <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+              <div class="grid grid-cols-1">
+                <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                <br>
+                <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                <div class="flex justify-between mt-1">
+                  <span class="text-xs mt-1.5">Anesthesiology</span>
+                  <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                </div>
+            
+              </div>
+        
+
+             </div>
+             <!-- border -->
+            <div class="border-t border-gray-200"></div>
+            <!-- lower container  -->
+             <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+               <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+               <span class="font-semibold text-xs"> QUALIFICATION</span>
+               <p>Chief Consultant, Anaesthesiologist</p>
+
+              </div>
+
+             </div>
+             <!-- card-2 -->
+             <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+              <!-- upper container  -->
+               <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                <div class="grid grid-cols-1">
+                  <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                  <br>
+                  <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                  <div class="flex justify-between mt-1">
+                    <span class="text-xs mt-1.5">Anesthesiology</span>
+                    <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                  </div>
+              
+                </div>
+          
+  
+               </div>
+               <!-- border -->
+              <div class="border-t border-gray-200"></div>
+              <!-- lower container  -->
+               <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                 <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                 <span class="font-semibold text-xs"> QUALIFICATION</span>
+                 <p>Chief Consultant, Anaesthesiologist</p>
+  
+                </div>
+  
+               </div>
+               <!-- card-3 -->
+               <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+                <!-- upper container  -->
+                 <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                  <div class="grid grid-cols-1">
+                    <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                    <br>
+                    <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                    <div class="flex justify-between mt-1">
+                      <span class="text-xs mt-1.5">Anesthesiology</span>
+                      <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                    </div>
+                
+                  </div>
+            
+    
+                 </div>
+                 <!-- border -->
+                <div class="border-t border-gray-200"></div>
+                <!-- lower container  -->
+                 <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                   <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                   <span class="font-semibold text-xs"> QUALIFICATION</span>
+                   <p>Chief Consultant, Anaesthesiologist</p>
+    
+                  </div>
+    
+                 </div>
+                 <!-- card-4 -->
+                 <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+                  <!-- upper container  -->
+                   <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                    <div class="grid grid-cols-1">
+                      <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                      <br>
+                      <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                      <div class="flex justify-between mt-1">
+                        <span class="text-xs mt-1.5">Anesthesiology</span>
+                        <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                      </div>
+                  
+                    </div>
+              
+      
+                   </div>
+                   <!-- border -->
+                  <div class="border-t border-gray-200"></div>
+                  <!-- lower container  -->
+                   <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                     <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                     <span class="font-semibold text-xs"> QUALIFICATION</span>
+                     <p>Chief Consultant, Anaesthesiologist</p>
+      
+                    </div>
+      
+                   </div>
+                   <!-- card-5 -->
+                   <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+                    <!-- upper container  -->
+                     <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                      <div class="grid grid-cols-1">
+                        <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                        <br>
+                        <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                        <div class="flex justify-between mt-1">
+                          <span class="text-xs mt-1.5">Anesthesiology</span>
+                          <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                        </div>
+                    
+                      </div>
+                
+        
+                     </div>
+                     <!-- border -->
+                    <div class="border-t border-gray-200"></div>
+                    <!-- lower container  -->
+                     <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                       <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                       <span class="font-semibold text-xs"> QUALIFICATION</span>
+                       <p>Chief Consultant, Anaesthesiologist</p>
+        
+                      </div>
+        
+                     </div>
+                     <!-- card-6 -->
+                     <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+                      <!-- upper container  -->
+                       <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                        <div class="grid grid-cols-1">
+                          <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                          <br>
+                          <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                          <div class="flex justify-between mt-1">
+                            <span class="text-xs mt-1.5">Anesthesiology</span>
+                            <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                          </div>
+                      
+                        </div>
+                  
+          
+                       </div>
+                       <!-- border -->
+                      <div class="border-t border-gray-200"></div>
+                      <!-- lower container  -->
+                       <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                         <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                         <span class="font-semibold text-xs"> QUALIFICATION</span>
+                         <p>Chief Consultant, Anaesthesiologist</p>
+          
+                        </div>
+          
+                       </div>
+                       <!-- card-7 -->
+                       <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+                        <!-- upper container  -->
+                         <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                          <div class="grid grid-cols-1">
+                            <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                            <br>
+                            <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                            <div class="flex justify-between mt-1">
+                              <span class="text-xs mt-1.5">Anesthesiology</span>
+                              <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                            </div>
+                        
+                          </div>
+                    
+            
+                         </div>
+                         <!-- border -->
+                        <div class="border-t border-gray-200"></div>
+                        <!-- lower container  -->
+                         <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                           <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                           <span class="font-semibold text-xs"> QUALIFICATION</span>
+                           <p>Chief Consultant, Anaesthesiologist</p>
+            
+                          </div>
+            
+                         </div>
+                         <!-- card-8 -->
+                         <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+                          <!-- upper container  -->
+                           <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+                            <div class="grid grid-cols-1">
+                              <img src="Padam-Raj-Panta.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+                              <br>
+                              <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+                              <div class="flex justify-between mt-1">
+                                <span class="text-xs mt-1.5">Anesthesiology</span>
+                                <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+                              </div>
+                          
+                            </div>
+                      
+              
+                           </div>
+                           <!-- border -->
+                          <div class="border-t border-gray-200"></div>
+                          <!-- lower container  -->
+                           <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+                             <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+                             <span class="font-semibold text-xs"> QUALIFICATION</span>
+                             <p>Chief Consultant, Anaesthesiologist</p>
+              
+                            </div>
+              
+                           </div>
+     </div>
+    </div>
+
+  </body>
+</html>
