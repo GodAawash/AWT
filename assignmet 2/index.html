@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/c4613672b4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- logo -->
+  <div class=" py-3 left-0 w-full flex justify-between px-7">
+    <img src="new_logo.png" alt="Logo 1" class="h-10">
+    <img src="Hospital-of-the-year-Logo.png" alt="Logo 2" class="h-10 w-auto ">
+  </div>
+
+  <!-- Upper image -->
+  <div class="relative mx-2">
+    <div class="absolue ">
+      <!-- Navbar -->
+      <nav class="bg-[#184b69] text-white p-2  w-auto space-x-3">
+        <div class="container mx-auto flex justify-center items-center">
+
+
+          <!-- Center: Menu Items -->
+          <ul class="hidden md:flex space-x-6 ">
+            <li class="relative group">
+              <a href="#" class="hover:text-green-400">About Us <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="absolute hidden group-hover:block bg-gray-200 text-black rounded-md mt-2 p-2">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Our Mission</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Team</a>
+              </div>
+            </li>
+            <li><a href="#" class="hover:text-green-400">Departments</a></li>
+            <li><a href="#" class="hover:text-green-400">Health Packages</a></li>
+            <li class="relative group">
+              <a href="#" class="hover:text-green-400">Facilities & Services <i
+                  class="fa-solid fa-chevron-down"></i></a>
+              <div class="absolute hidden group-hover:block bg-white text-black rounded-md mt-2 p-2">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Emergency</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Surgery</a>
+              </div>
+            </li>
+            <li><a href="#" class="hover:text-green-400">International Patients</a></li>
+            <li><a href="#" class="hover:text-green-400">Academic Wing <i class="fa-solid fa-chevron-down"></i></a></li>
+            <li class="relative group">
+              <a href="#" class="hover:text-green-400">More </a>
+              <div class="absolute hidden group-hover:block bg-white text-black rounded-md mt-2 p-2">
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">News</a>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-200">Contact</a>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Mobile Menu Button -->
+          <button class="md:hidden text-2xl" id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-[#184b69] text-white p-4 space-y-3" id="mobile-menu">
+          <a href="#" class="block">About Us</a>
+          <a href="#" class="block">Departments</a>
+          <a href="#" class="block">Health Packages</a>
+          <a href="#" class="block">Facilities & Services</a>
+          <a href="#" class="block">International Patients</a>
+          <a href="#" class="block">Academic Wing</a>
+          <a href="#" class="block">More</a>
+        </div>
+      </nav>
+
+      <script>
+        document.getElementById("menu-btn").addEventListener("click", function () {
+          document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+      </script>
+      <div class="absolute mt-16 ml-14 lg:mt-36 lg:ml-28">
+        <h1 class="text-[#184b69]  text-3xl">World Strock Day</h1>
+        <p class="text-[#184b69]">News and Article >> World Strock Day </p>
+      </div>
+    </div>
+
+
+    <img
+      src="DALL·E 2025-02-11 12.02.29 - A clean, well-lit hospital hallway with white walls, bright overhead lighting, and a modern design. The hallway extends into the distance with evenly .webp"
+      alt="image" class="w-full h-72 object-fill ">
+
+
+  </div>
+  <!-- mid- content  -->
+  <div class="flex justify-center items-center w-full ">
+    <div class="flex flex-col lg:flex-row justify-center items-center max-w-4xl w-full px-6 py-4">
+      <div class="flex justify-center w-full mb-6">
+        <img src="image.png" alt="Nurse" class="rounded-lg hover:scale-110 hover:shadow-2xl transition duration-300" />
+      </div>
+      <div class="flex flex-col lg:p-8 w-full">
+        <h2 class="mt-3 text-2xl">
+          <span class="text-blue-400">About</span> Us
+        </h2>
+        <p class="text-sm text-gray-400">Description text here...</p>
+        <p class="text-justify pt-6 text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat cupiditate veniam facere, nobis, illo
+          corrupti facilis neque rem, impedit error laborum cumque earum voluptates animi nam voluptatibus maxime nihil
+          nesciunt!
+        </p>
+        <div>
+          <button
+            class="mt-6 bg-transparent hover:bg-red-500 text-black font-semibold hover:text-white py-2 px-4 border border-red-500 hover:border-transparent rounded-full">
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cards section -->
+
+  <!-- global container  -->
+  <div class="grid items-center justify-center  mt-5 bg-white lg:mt-8 md:mt-5 md:mx-5">
+    <span class="font-bold text-3xl">Mentors</span>
+    <!-- column container -->
+    <div
+      class="grid grid-cols-1 mt-8 gap-6 md:gap-3 md:grid-cols-2 md:justify-center md:items-center lg:grid-cols-4 lg:gap-6 lg:justify-center lg:items-center">
+
+      <!-- card-1 -->
+      <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+        <!-- upper container  -->
+        <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+          <div class="grid grid-cols-1">
+            <img src="image copy.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+            <br>
+            <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+            <div class="flex justify-between mt-1">
+              <span class="text-xs mt-1.5">Anesthesiology</span>
+              <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- border -->
+        <div class="border-t border-gray-200"></div>
+        <!-- lower container  -->
+        <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+          <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+          <span class="font-semibold text-xs"> QUALIFICATION</span>
+          <p>Chief Consultant, Anaesthesiologist</p>
+
+        </div>
+
+      </div>
+      <!-- card-2 -->
+      <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+        <!-- upper container  -->
+        <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+          <div class="grid grid-cols-1">
+            <img src="image copy.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+            <br>
+            <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+            <div class="flex justify-between mt-1">
+              <span class="text-xs mt-1.5">Anesthesiology</span>
+              <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- border -->
+        <div class="border-t border-gray-200"></div>
+        <!-- lower container  -->
+        <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+          <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+          <span class="font-semibold text-xs"> QUALIFICATION</span>
+          <p>Chief Consultant, Anaesthesiologist</p>
+
+        </div>
+
+      </div>
+      <!-- card-3 -->
+      <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+        <!-- upper container  -->
+        <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+          <div class="grid grid-cols-1">
+            <img src="image copy.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+            <br>
+            <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+            <div class="flex justify-between mt-1">
+              <span class="text-xs mt-1.5">Anesthesiology</span>
+              <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- border -->
+        <div class="border-t border-gray-200"></div>
+        <!-- lower container  -->
+        <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+          <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+          <span class="font-semibold text-xs"> QUALIFICATION</span>
+          <p>Chief Consultant, Anaesthesiologist</p>
+
+        </div>
+
+      </div>
+      <!-- card-4 -->
+      <div class="bg-gray-200 rounded-xl text-black hover:scale-[1.1] ease-in duration-300">
+        <!-- upper container  -->
+        <div class="p-4 mx-2 mt-2 rounded-t-sm bg-white">
+          <div class="grid grid-cols-1">
+            <img src="image copy.png" alt="image" class="w-auto h-24 rounded-xl mx-auto" />
+            <br>
+            <h3 class="font-bold text-lg">Dr. Padam Raj Panta</h3>
+            <div class="flex justify-between mt-1">
+              <span class="text-xs mt-1.5">Anesthesiology</span>
+              <span class="text-green-700 text-xs mt-1.5"><i class="fa-regular fa-eye"></i> View Profile</span>
+            </div>
+
+          </div>
+        </div>
+        <!-- border -->
+        <div class="border-t border-gray-200"></div>
+        <!-- lower container  -->
+        <div class="p-4 mx-2 mb-2  bg-white flex flex-col space-y-2">
+          <span class="text-green-700 text-xs">SPECIALIZATION AND EXPERTISE</span>
+          <span class="font-semibold text-xs"> QUALIFICATION</span>
+          <p>Chief Consultant, Anaesthesiologist</p>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Clinical div  -->
+  <div class="flex flex-col justify-center items-center lg:justify-start lg:flex-row px-8 lg:mx-48">
+    <!-- side bar -->
+    <div class="mt-5 justify-center items-center md:basis-full md: w-full lg:basis-2/5 ">
+      <h5 class="font-bold text-3xl mb-6">CLINICAL</h5>
+      <hr class="border-b-2 border-gray-00 my-3">
+
+      <!-- toggle dropdown -->
+      <div class=" cursor-pointer flex" onclick="toggleDropdown()">
+        <h2 class="text-lg font-bold text-gary-800">Course Structure</h2>
+        <span id="arrowIcone" class="transition-transform transform rotate-0 ml-3 "> <i
+            class="fa-solid fa-chevron-down"></i></span>
+
+
+      </div>
+      <!-- hidden content  -->
+      <div id="courseContent" class="mt-2 hidden">
+        <p class="text-teal-700"> Year 4 Clinical Study </p>
+        <p class="text-teal-700"> Year 5 (Specialty rotation)</p>
+
+
+      </div>
+      <script>
+        function toggleDropdown() {
+          const content = document.getElementById("courseContent");
+          const arrow = document.getElementById("arrowIcone");
+          // toggle visibility
+          content.classList.toggle("hidden");
+          // rotate arrow icon
+          if (content.classList.contains("hidden")) {
+            arrow.classList.remove("rotate-180");
+          } else {
+            arrow.classList.add1("rotate-180");
+          }
+        }
+      </script>
+      <hr class="border-b-2 border-gray-00 my-3">
+
+      <div class="text-teal-800 font-bold">
+        <h4>Support</h4>
+        <hr class="border-b-2 border-gray-00 my-3">
+        <h4>Assessment</h4>
+        <hr class="border-b-2 border-gray-00 my-3">
+        <h4>Applying</h4>
+        <hr class="border-b-2 border-gray-00 my-3">
+        <h4>collage</h4>
+        <hr class="border-b-2 border-gray-00 my-3">
+        <h4>FaQs</h4>
+        <hr class="border-b-2 border-gray-00 my-3">
+        <h4>Contact Us</h4>
+
+      </div>
+
+    </div>
+    <!-- side content  -->
+    <div class="basis-1/2 text-justify lg:ml-20 mt-9 object-center ">
+      <!-- paragraph -->
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel cumque natus, iusto iste modi aut suscipit ut corporis. Quaerat ea illum, id consequatur veritatis est ex odit necessitatibus voluptatibus aliquid.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi quidem non, recusandae minima modi dolores eius possimus similique dignissimos qui. Nemo iusto culpa sed dolores quasi cupiditate pariatur eveniet itaque.
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ipsa voluptatum debitis quis iure veritatis dignissimos enim impedit cum id, eveniet quo sequi deserunt, ducimus unde ipsam, tenetur repudiandae nam?</p>
+      </p>
+      <h3 class="text-2xl mt-5">Year 6: General Clinical Studies</h3>
+      <hr class="border-b-2 border-gray-00 my-3">
+      <h3 class="text-xl mt-5">Medicine</h3>
+      <hr class="border-b-2 border-gray-00 my-3">
+    </div>
+  </div>
+
+</body>
+
+</html>
